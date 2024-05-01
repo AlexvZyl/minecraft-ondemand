@@ -115,6 +115,8 @@ export class MinecraftStack extends Stack {
       config.minecraftEdition
     );
 
+
+    console.log(config.minecraftImageEnv)
     const minecraftServerContainer = new ecs.ContainerDefinition(
       this,
       'ServerContainer',
